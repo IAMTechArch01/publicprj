@@ -1,7 +1,7 @@
-name: Sample - template
+name: Sample template
 description: This is sample template template to be followed for remaining activity.
 title: "Sample template for Project: <Your Project Name>"
-labels: ["Project Template"]
+labels: ["Bug"]
 assignees:
   - octocat
 body:

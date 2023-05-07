@@ -3,7 +3,6 @@ name: education Workflow
 on:
   issues:
     types: [opened]
-    # Filter by issue template name
     issue_template:
       name: education template
 

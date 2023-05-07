@@ -3,12 +3,8 @@ name: Severity Workflow
 on:
   issues:
     types: [opened]
-    labels:
-      - critical
-      - high
-      - medium
-      - low
-      - document
+    # Only run for issues with the "severity: high" label
+    labels: [severity: high]
 
 jobs:
   process_issue:

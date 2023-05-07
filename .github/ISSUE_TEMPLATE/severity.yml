@@ -1,5 +1,6 @@
-name: issue_template.yml
-title: My Issue Template
+name: severity template
+description: severity template
+title: "My Issue Template"
 about: A template for creating issues
 labels:
   - bug

@@ -1,10 +1,8 @@
 name: education Workflow
 
 on:
-  issues:
-    types: [opened]
-    issue_template:
-      name: education template
+  issue_template:
+    types: [education template]
 
 jobs:
   process_issue:

@@ -1,5 +1,5 @@
 name: education template
-description: This is education template to be followed for remaining activity.
+description: Issue template
 title: "Education template for Project: <Your Project Name>"
 labels: ["bug"]
 assignees:

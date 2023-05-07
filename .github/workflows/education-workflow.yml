@@ -1,8 +1,15 @@
-name: education Workflow
+name: Education Workflow
 
 on:
-  issue_template:
-    types: [education template]
+  issues:
+    types: [opened]
+  # Only run for issues with the "education template" template
+  workflow_dispatch:
+    inputs:
+      template:
+        description: 'Issue template'
+        required: true
+        default: 'education template'
 
 jobs:
   process_issue:
@@ -16,5 +23,4 @@ jobs:
         run: |
           echo "Issue number: ${{ github.event.issue.number }}"
           echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue description: ${{ github.event.issue.body }}"
-          echo "Assignee: ${{ github.event.issue.assignee.login }}"
+         

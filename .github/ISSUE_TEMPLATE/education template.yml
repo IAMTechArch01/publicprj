@@ -1,6 +1,6 @@
-name: Sample template
-description: This is sample template to be followed for remaining activity.
-title: "Sample template for Project: <Your Project Name>"
+name: Education template
+description: This is education template to be followed for remaining activity.
+title: "Education template for Project: <Your Project Name>"
 labels: ["bug"]
 assignees:
   - octocat

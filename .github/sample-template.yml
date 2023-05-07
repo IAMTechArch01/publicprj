@@ -1,0 +1,41 @@
+name: Sample - template
+description: This is sample template template to be followed for remaining activity.
+title: "Sample template for Project: <Your Project Name>"
+labels: ["Project Template"]
+assignees:
+  - octocat
+body:
+  - type: dropdown
+    id: organization
+    attributes:
+      label: Organization
+      description: in which organization are you looking to migrate repository?
+      options:
+        - Accenture-CIO-Migration
+        - accenture-emu-cio01
+        - accenture-emu-ciotest01
+    validations:
+      required: true
+      validationMessage: Select an organization you are looking to create a new teams.
+
+  - type: input
+    id: ADOOrganization
+    attributes:
+      label: ADO Organization
+      description: Great repository names are short and memorable
+      placeholder: ex. Organization
+    validations:
+      required: true
+      pattern: "^.{10,}$"
+      validationMessage: Organization Name must be at least 10 characters long
+
+  - type: input
+    id: GHPAT
+    attributes:
+      label: Github PAT
+      description: Please provide the IDP group for 'write' permission.
+      placeholder: ex. GHE_Token
+    validations:
+      required: true
+      pattern: "^.{10,}$"
+      validationMessage: Write Group Name must be at least 10 characters long

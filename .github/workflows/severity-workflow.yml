@@ -1,7 +1,7 @@
 name: Severity Workflow
 on:
   issues:
-    # Only run for issues with the "sample" label
+    types: [opened]
     labels: [documentation]
 
 jobs:

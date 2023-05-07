@@ -4,7 +4,8 @@ on:
   issues:
     types: [opened]
     # Filter by issue template name
-    - name: Sample template
+    issue_template:
+      name: Sample template
 
 jobs:
   process_issue:

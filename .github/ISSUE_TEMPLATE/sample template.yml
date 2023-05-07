@@ -1,5 +1,5 @@
 name: sample template
-description: This is sample template to be followed for remaining activity.
+description: Issue template
 title: "Sample template for Project: <Your Project Name>"
 labels: ["bug"]
 assignees:

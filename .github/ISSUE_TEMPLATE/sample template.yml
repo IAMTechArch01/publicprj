@@ -1,5 +1,5 @@
 name: sample template
-description: Issue template
+description: sample template
 title: "Sample template for Project: <Your Project Name>"
 labels: ["bug"]
 assignees:
